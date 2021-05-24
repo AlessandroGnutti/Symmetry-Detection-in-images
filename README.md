@@ -1,3 +1,3 @@
-# Combining-Appearance-and-Gradient-Information-for-Image-Symmetry-Detection
+# Combining Appearance and Gradient Information for Image Symmetry Detection
 
 Under construction
