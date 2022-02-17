@@ -4,12 +4,12 @@ clc
 
 % Needed paths
 addpath('skeleton');
-addpath('altmany-export_fig-a0f8ec3');
+% addpath('altmany-export_fig-a0f8ec3');
 
 % Strings
-str_conference  = 'DatasetICCV17/'; % Parametro variabile
-str_imageset    = 'Testset/'; % Parametro variabile
-str_scenario    = 'ref_s/'; % Parametro variabile
+str_conference  = 'DatasetICCV17/'; % Can be changed
+str_imageset    = 'Testset/'; % Can be changed
+str_scenario    = 'ref_s/'; % Can be changed
 str_images      = 'Images/';
 str_stack       = 'Stack/';
 str_fold        = strcat(str_conference, str_imageset, str_scenario, str_images);
@@ -103,5 +103,6 @@ for img_number = 1
     [~, ~, ~, ~,...
     img_detected_refs, best_detected_refs] =...
     e0_saveAxes(data, metrica, size(img_or,1), control, th_final, range);
+    e1_drawResults(img_detected_refs, best_detected_refs, img_or)
    
 end
