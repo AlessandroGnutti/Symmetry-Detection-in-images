@@ -9,3 +9,7 @@ Download the .mat files associated to the symmetry stacks for the ICCV17, single
 Copy the files in /DatasetICCV17/Testset/ref_s/stack/.
 
 Run the main.m file.
+
+# Contacts
+
+For any information, please send an email to alessandro.gnutti@unibs.it
