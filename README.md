@@ -5,5 +5,7 @@ This work addresses the challenging problem of reflection symmetry detection in 
 # Running the code
 
 Download the .mat files associated to the symmetry stacks for the ICCV17, single axis, testset.
+
 Copy those files in /DatasetICCV17/Testset/ref_s/stack/.
+
 Run the main.m file.
