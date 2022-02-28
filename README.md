@@ -12,8 +12,7 @@ Run the main.m file.
 
 # Citing
 
-If you use thid code in your work, please consider citing the following paper:
-
+If you use this code in your work, please consider citing the following paper:
 A. Gnutti, F. Guerrini and R. Leonardi, "Combining Appearance and Gradient Information for Image Symmetry Detection," in IEEE Transactions on Image Processing, vol. 30, pp. 5708-5723, 2021, doi: 10.1109/TIP.2021.3085202. https://ieeexplore.ieee.org/document/9459467
 
 # Contacts
